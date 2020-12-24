@@ -11,8 +11,8 @@ app.get('/hola-mundo',function(req , res){
 
 var messages = [{
     id: 1,
-    text: 'Un chat creisi',
-    nickname: 'Prueba dede compu'
+    text: ' ',
+    nickname: ' '
 }];
 
 io.on('connection', function(socket){
