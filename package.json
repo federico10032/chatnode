@@ -1,10 +1,10 @@
 {
-  "name": "cursonode",
+  "name": "nodechat",
   "version": "1.0.0",
-  "description": "Otro intento de Node",
+  "description": "Node el chat de dios",
   "main": "cursoSocket.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"nError: no test specified\" && exit 1"
   },
   "author": "",
