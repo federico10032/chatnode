@@ -26,9 +26,9 @@ io.on('connection', function(socket){
         io.sockets.emit('messages', messages);
     });
 });
-
-server.listen(6677, function(){
-    console.log('El server esta en funcion en http://localhost:6677');
+var port = process.env.PORT || 8080;
+server.listen(port, function(){
+    console.log('El server esta en funcion en http://localhost:'+port);
 
 });
 
